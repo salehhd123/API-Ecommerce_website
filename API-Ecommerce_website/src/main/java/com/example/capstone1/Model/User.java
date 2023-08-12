@@ -16,7 +16,7 @@ public class User {
     private String name;
 
     @NotEmpty(message = "not empty")
-    @Pattern(regexp = "^(?=.\\d)(?=.[a-z])(?=.[A-Z])(?=.[a-zA-Z]).{8,}$")
+    @Pattern(regexp = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=\\S+$).{6,}$")
     private String password;
 
 
