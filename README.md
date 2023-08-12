@@ -42,4 +42,6 @@ E-commerce website using spting boot where users can add, get, update, delete an
 <br>• check if the merchant has the product in stock or return bad request.
 <br>• reduce the stock from the MerchantStock.
 <br>• deducted the price of the product from the user balance.
-• if balance is less than the product price return bad request.
+• if balance is less than the product price return bad request.<br>
+<br>13-  endpoint only admin can delete and he will select if customer or merchant want to delete if he select customer input id and will deleted , if select merchant and input his id he will deleted and his merchant stock
+
